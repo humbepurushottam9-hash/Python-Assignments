@@ -1,0 +1,15 @@
+def Factorial(No):
+    Fact = 1
+
+    for i in range(1, No + 1):
+        Fact = Fact * i
+
+    print("Factorial of", No, "is:", Fact)
+
+def main():
+    Value = int(input("Enter the number:\n"))
+
+    Factorial(Value)
+
+if __name__ == "__main__":
+    main()
